@@ -1,0 +1,9 @@
+.storyCard {
+    height: 30vh;
+    /* width: 5vw; */
+    margin-bottom: 5vh ;
+    width: 35%;
+    /* border: 1px #55769A solid; */
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px #888888;
+}
