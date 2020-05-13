@@ -1,0 +1,18 @@
+.projectButton {
+    width: 50vw;
+    height: 40vh;
+    border: 1px #55769A solid;
+    border-radius: 3px;
+    margin-bottom: 10vh;
+}
+
+.projectButtonLabel {
+    color:#EF767A; 
+    text-align: left; 
+    font-size: x-large;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-weight: 400;
+    margin-right: 20%;
+    width: 10%;
+}

@@ -1,0 +1,23 @@
+.aboutAvatar {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* margin-left: 25vw; */
+}
+
+.aboutText {
+    color: #55769A;
+    width:60%;
+    text-align: left;
+    margin-left: 30vh;
+    /* margin-top: auto; */
+    /* margin-right: auto; */
+    display: inline-block;
+    /* align-content: center; */
+    line-height: 1.6;
+    margin-top: 3vh;
+}
