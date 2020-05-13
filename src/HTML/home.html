@@ -2,11 +2,24 @@
 <html lang="en" >
 <head>
     <meta charset="UTF-8">
-    <title>Hi Nida</title>
+    <title>Nida Pervez</title>
+    <style>
+        #myCanvas {
+            top: 0px;
+            left: 0px;
+            width: 100vw;
+            height: 100vh;
+            z-index: -5;
+            position: fixed;
+        }
+
+    </style>
     <link rel="stylesheet" href="../styles/homeStyles.css">
     <script src="../JS/redirecting.js"></script>
+    
 </head> 
 <body>
+    <canvas id="myCanvas"></canvas>
     <div class="container">
         <section class="menu">
             MENU 
@@ -59,6 +72,8 @@
         <section class="logo">
             LOGO
         </section>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.2/paper-core.min.js'></script>
+        <script src="../JS/balloonAnimation.js" type="text/javascript"></script>
     </div>
 </body>
 </html>

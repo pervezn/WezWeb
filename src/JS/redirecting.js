@@ -5,7 +5,7 @@ window.onload = function(){
     const photos = document.getElementById("Photos")
     const writing = document.getElementById("Writing")
     const travel = document.getElementById("Travel")
-    // const about = document.getElementById("About")
+    const about = document.getElementById("About")
     // const resume = document.getElementById("Resume")
 
     console.log("home is: " + home )
@@ -28,9 +28,9 @@ window.onload = function(){
     writing.onclick = function () {
         location.href = "../HTML/writing.html"
     }  
-    // about.onclick = function () {
-    //     location.href = "../HTML/about.html"
-    // }  
+    about.onclick = function () {
+        location.href = "../HTML/about.html"
+    }  
     // resume.onclick = function () {
     //     location.href = "../HTML/resume.html"
     // }  

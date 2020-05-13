@@ -28,20 +28,20 @@ body * {
  
  .menu {
     grid-area: a;
-    background: #de0a7e;
+    /* background: #de0a7e; */
     min-height: 40px;
  }
  
  .body {
     grid-area: b;
-    background: yellow;
+    /* background: yellow; */
     min-height: 40px;
     color: #444;
  }
  
  .logo { 
     grid-area: c;
-    background: #00a4cf; 
+    /* background: #00a4cf;  */
 }
     
 /* .icons {
