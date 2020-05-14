@@ -59,10 +59,9 @@ body * {
 }
 
 #blurb {
-    width: "30vw"; 
-    margin-left: "auto"; 
-    margin-right: "auto"; 
-    color: "#EEB868";
+    width: 45%;
+    font-weight: lighter;
+    line-height: 1.6;
     margin-top: "5vh"; 
     text-align: "center";
 }
@@ -72,6 +71,10 @@ body * {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
   }
  
  /* @media (max-width: 900px) {
