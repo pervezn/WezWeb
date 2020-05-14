@@ -5,60 +5,57 @@
     <title>Hi Nida</title>
     <link rel="stylesheet" href="../styles/template.css">
     <link rel="stylesheet" href="../styles/projectStyles.css">
-    <script src="../JS/projectRedirect.js"></script>
-    <script src="../JS/redirecting.js"></script>
+    <!-- <script src="../JS/projectRedirect.js"></script>
+    <script src="../JS/redirecting.js"></script> -->
     
 </head> 
 <body>
     <div class="container">
         <section class="menu">
             <div style="margin-left: 5vw; margin-top: 5vh; top: 0px; position: sticky; position: -webkit-sticky;"> 
-                <button class="menuButton" id="Home">Home</button>
-                <button class="menuButton" id="Projects" style="color: #eeb868;">Projects</button> 
-                <button class="menuButton" style="margin-left: 3vw;" id="FactFlow">Fact Flow</button>
-                <button class="menuButton" style="margin-left: 3vw;" id="TropeTracker">Trope Tracker </button>
-                <button class="menuButton" style="margin-left: 3vw;" id="Internships">Internships</button>
-                <button class="menuButton" id="Movies">Movies</button> 
-                <button class="menuButton" id="Photos">Photos</button> 
-                <button class="menuButton" id="Writing">Writing</button> 
-                <button class="menuButton" id="Travel">Travel</button>  
+                <a class="menuButton" href="home.html">Home</a>
+                <a class="menuButton" href="projects.html" style="color: #eeb868;">Projects</a> 
+                <a class="menuButton" href="factflow.html" style="margin-left: 3vw;">Fact Flow</a>
+                <a class="menuButton" href="tropetracker.html" style="margin-left: 3vw;" >Trope Tracker </a>
+                <a class="menuButton" href="internships.html" style="margin-left: 3vw;" >Internships</a>
+                <a class="menuButton" href="movies.html">Movies</a> 
+                <a class="menuButton" href="photos.html">Photos</a> 
+                <a class="menuButton" href="writing.html" id="Writing">Writing</a> 
+                <a class="menuButton" href="travel.html" id="Travel">Travel</a>  
             </div>
         </section>
         <section class="body">
-            <div style="height: 100%; margin-top: 20vh; margin-left: 10vw;">
-                <button id="FactFlow2" class="projectButton">
-                    <div style="display:flex;">
-                        <div class="projectButtonLabel"> FACT FLOW</div>
-                        <img style="width:65%;" src="../../public/images/FactFlow.png" alt="FactFlow" />
-                    </div>
-                </button>
-                
-                <script>
-                    const factflow2 = document.getElementById("FactFlow2")
-                    factflow2.onclick = function () {
-                        location.href = "../HTML/factflow.html"
-                    }  
-                </script>
-
-                <button id="TropeTracker2" class="projectButton">
-                    <div style="display:flex;">
-                        <div class="projectButtonLabel"> TROPE TRACKER</div>
-                        <img style="width:65%;" src="../../public/images/TropeTracker.png" alt="TropeTracker" />
-                    </div>
-                </button>
-
-                <script>
-                    const tropetracker2 = document.getElementById("TropeTracker2")
-                    tropetracker2.onclick = function () {
-                        location.href = "../HTML/tropetracker.html"
-                    }
-                </script>
+            <div style="margin-top: 20vh; margin-left: 10vw;">
 
                 <button class="projectButton">
-                    <div style="display:flex;">
-                        <div class="projectButtonLabel"> Past Internships</div>
-                        <img style="width:65%;" src="../../public/images/apple.png" alt="Internships" />
-                    </div>
+                    <a href="factflow.html">
+                        <div style="display:flex;">
+                            <div class="projectButtonLabel"> FACT FLOW</div>
+                            <img style="width:65%;" src="../../public/images/FactFlow.png" alt="FactFlow" />
+                        </div>
+                    </a>
+                </button>
+                
+               
+
+                <button class="projectButton">
+                    <a href="tropetracker.html">
+                        <div style="display:flex;">
+                            <div class="projectButtonLabel"> TROPE TRACKER</div>
+                            <img style="width:65%;" src="../../public/images/TropeTracker.png" alt="TropeTracker" />
+                        </div>
+                    </a>
+                </button>
+
+               
+
+                <button class="projectButton">
+                    <a href="internships.html">
+                        <div style="display:flex;">
+                            <div class="projectButtonLabel"> Past Internships</div>
+                            <img style="width:65%;" src="../../public/images/apple.png" alt="Internships" />
+                        </div>
+                    </a>   
                 </button>
                 
                 
@@ -70,6 +67,11 @@
                 <button id="About" style="margin-top: 1vh; width:65%;" ><img src="../../public/images/nidpic.JPG" alt="Avatar" class="avatar"></button>
             </div>
         </section>
+    </div>
+    <div class="footer" >
+        <a style="color: #EF767A; ">LinkedIn</a>
+        <a style="color: #EF767A;">Resume</a>
+        <a style="color: #EF767A;">Github</a>
     </div>
 </body>
 </html>
