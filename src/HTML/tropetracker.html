@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Hi Nida</title>
+    <link rel="stylesheet" href="../styles/template.css">
+    <link rel="stylesheet" href="../styles/projectStyles.css">
+    <link rel="stylesheet" href="../styles/projectStyles.css">
+    <link rel="stylesheet" href="../styles/factflowStyles.css">
+    <script src="../JS/redirecting.js"></script>
+    <script src="../JS/projectRedirect.js"></script>
+</head> 
+<body>
+    <div class="container">
+        <section class="menu">
+            <div style="margin-left: 5vw; margin-top: 5vh; top: 0px; position: sticky; position: -webkit-sticky;"> 
+                <button class="menuButton" id="Home">Home</button>
+                <button class="menuButton" id="Projects" >Projects</button> 
+                <button class="menuButton" style="margin-left: 3vw;" id="FactFlow">Fact Flow</button>
+                <button class="menuButton" style="margin-left: 3vw;color: #eeb868;" id="TropeTracker">Trope Tracker </button>
+                <button class="menuButton" style="margin-left: 3vw;" id="Internships">Internships</button>
+                <button class="menuButton" id="Movies">Movies</button> 
+                <button class="menuButton" id="Photos">Photos</button> 
+                <button class="menuButton" id="Writing">Writing</button> 
+                <button class="menuButton" id="Travel">Travel</button>  
+            </div>
+        </section>
+        <section class="body">
+            <div style="height: 100%; margin-top: 20vh; margin-left: 15vw;">
+                <div style="height: 15vh;">
+                    <div style="display: flex;width: 70%;">
+                        <img style="width:10vw;margin-top: 0vh;" src="../../public/images/TT9.png" alt="TT9">
+                        <div style="color: #ef7679;font-size: 3rem;margin-left: 2vw;">Northwestern Knight Lab: Trope Tracker</div>
+                    </div> 
+                    <p style="width: 40%; margin-left: 12vw;color:#55769a">
+                        Practicum in Intelligent Information Systems is a class offered at Northwestern that focuses on areas of information access, management, capture, or retrieval. Within these focus-areas, students are expected to present a project definition, a technology selection, data collection, implementation, and project management.
+                    </p>
+                    <p style="color:#55769a;margin-left: 12vw;font-size: x-large;font-weight: 300;"> Project Overview</p>
+                    <div style="display: flex;">
+                        <div style="width:12vw; color:#55769a">
+                            <p style="font-weight: bold;">Winter 2019</p>
+                            <p style="font-weight: bold;">Team Members:</p>
+                            <div>Brendan Labadie</div>
+                            <div>Remy Afong</div>
+                            <div>Albert Dotson</div>
+                        </div>
+                    
+                        <p style="width: 40%;color:#55769a"> 
+                            Trope Tracker is a tool that discovers trope-article association via crowdsourced Twitter data. A trope is figurative or metaphorical use of a word or expression. Some common tropes are “a needle in a haystack”, or “David vs. Goliath”. Our goal is to identify tropes or trope ideas in articles and vice versa; to find articles by looking up tropes. The idea behind Trope Tracker is to see how people are using tropes and how common they are today.
+                        </p>
+                    </div>
+                        <p class="FFPara">
+                            Example Use Cases
+                        </p>
+                        <p class="FFPara">
+                            1. User wants to know what a story is about before reading it, e.g. news story about an individual winning a lawsuit against Facebook summarizes as David vs. Goliath
+                        </p>
+                        <p class="FFPara">
+                            2. User wants to view stories classified as the same trope, e.g. English teachers design a literary analysis exercise for students to compare and contrast stories labeled as the same trope (characters, plot, etc.)
+                        </p>
+
+
+                        <p style="color: #55769a;font-size: large; font-weight: 300;">My Role</p>
+                        <p class="FFPara">
+                            As a four person team with much ground to cover, my role was quite dynamic. During this project, my tasks ranged from connecting to our database, research, frontend, and creating a complimentary chrome extension. However, due to time constraints, we were unable to fully publish he chrome extension
+                        </p>
+
+
+
+                        <p style="color: #55769a;font-size: large; font-weight: 300;">Design Process</p>
+                        <p class="FFPara">
+                            Designing for this project was an interesting challenge because we needed to find an intuitive way to provide two different search methods. In the first method, we wanted to allow users to provide a link to an article and then Trope Tracker would display the tropes used in the article. The second method is more of a browsing method where tropes are provided and users can search for a trope in our list and browse through the tweets that contain articles with those tropes. Our first UI sketches explored these ideas:
+                        </p>
+                        <p class="FFPara" style="margin-top: 7vh;">Home Screen</p>
+                        <img src="../../public/images/TT1.png" alt="TT1">
+                        <p class="FFPara">Article Search</p>
+                        <img src="../../public/images/TT2.png" alt="TT2">
+
+                        <p class="FFPara">Trope Search</p>
+                        <img src="../../public/images/TT3.png" alt="TT3">
+
+                        <p class="FFPara">Chrome Extension</p>
+                        <img src="../../public/images/TT4.png" alt="TT4">
+
+                        <p class="FFPara" style="margin-top: 7vh;"> 
+                            One challenge that we faced in terms of UI was displaying both the articles and the tweets associated with them on the same page. Our initial idea was to place them under the article name, but that caused friction as users would have to scroll a lot to reach the next article. We settled on creating a hamburger-menu styled pop-out that would display the tweets.
+                        </p>
+                        <img src="../../public/images/TT5.png" alt="TT5">
+                        
+                        <p class="FFPara">
+                            This allowed users to easily view the tweets on the side without having to move around the page too much.
+                        </p>
+                        <p class="FFPara">
+                            For the rest of our design, we stuck to a simple and minimalistic design, highlighting only the most necessary pieces of information.
+                        </p>
+
+                        <img src="../../public/images/TT6.png" alt="TT6">
+                        <img src="../../public/images/TT7.png" alt="TT7">
+                        
+                        <p class="FFPara">
+                            Our tech stack for this project included: ReactJS (frontend), NodeJS/Python (backend), Firebase (database), Twitter API ($$$), Newsbot (Chrome extension)
+                        </p>
+                        <p class="FFPara">Technical Architecture</p>
+                        <img src="../../public/images/TT8.png" alt="TT8">
+
+                        <button id="toTropeTracker" style="color: #eeb868; width:20vw;font-size: x-large;margin-top: 10vh; margin-bottom:10vh;text-align: left;">
+                            Visit Trope Tracker
+                        </button>
+                        <script>
+                            document.getElementById("toTropeTracker").onclick = function() {
+                                window.open('https://trope-tracker-62549.firebaseapp.com/#/')
+                            }
+                        </script>
+                    
+                    
+                </div>
+                   
+                
+                
+            </div>  
+        </section> 
+        <section class="logo">
+            <div style="top: 0px; position: sticky; position: -webkit-sticky;">
+                <div style="margin-top: 3vh; color:#eeb868; font-size: x-large; padding-top: 2vh;">Nida Pervez</div>
+                <button id="About" style="margin-top: 1vh; width:65%;" ><img src="../../public/images/nidpic.JPG" alt="Avatar" class="avatar"></button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

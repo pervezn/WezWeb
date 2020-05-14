@@ -5,7 +5,9 @@
     <title>Hi Nida</title>
     <link rel="stylesheet" href="../styles/template.css">
     <link rel="stylesheet" href="../styles/projectStyles.css">
+    <script src="../JS/projectRedirect.js"></script>
     <script src="../JS/redirecting.js"></script>
+    
 </head> 
 <body>
     <div class="container">
@@ -13,6 +15,9 @@
             <div style="margin-left: 5vw; margin-top: 5vh; top: 0px; position: sticky; position: -webkit-sticky;"> 
                 <button class="menuButton" id="Home">Home</button>
                 <button class="menuButton" id="Projects" style="color: #eeb868;">Projects</button> 
+                <button class="menuButton" style="margin-left: 3vw;" id="FactFlow">Fact Flow</button>
+                <button class="menuButton" style="margin-left: 3vw;" id="TropeTracker">Trope Tracker </button>
+                <button class="menuButton" style="margin-left: 3vw;" id="Internships">Internships</button>
                 <button class="menuButton" id="Movies">Movies</button> 
                 <button class="menuButton" id="Photos">Photos</button> 
                 <button class="menuButton" id="Writing">Writing</button> 
@@ -21,18 +26,34 @@
         </section>
         <section class="body">
             <div style="height: 100%; margin-top: 20vh; margin-left: 10vw;">
-                <button class="projectButton">
+                <button id="FactFlow2" class="projectButton">
                     <div style="display:flex;">
                         <div class="projectButtonLabel"> FACT FLOW</div>
                         <img style="width:65%;" src="../../public/images/FactFlow.png" alt="FactFlow" />
                     </div>
                 </button>
-                <button class="projectButton">
+                
+                <script>
+                    const factflow2 = document.getElementById("FactFlow2")
+                    factflow2.onclick = function () {
+                        location.href = "../HTML/factflow.html"
+                    }  
+                </script>
+
+                <button id="TropeTracker2" class="projectButton">
                     <div style="display:flex;">
                         <div class="projectButtonLabel"> TROPE TRACKER</div>
                         <img style="width:65%;" src="../../public/images/TropeTracker.png" alt="TropeTracker" />
                     </div>
                 </button>
+
+                <script>
+                    const tropetracker2 = document.getElementById("TropeTracker2")
+                    tropetracker2.onclick = function () {
+                        location.href = "../HTML/tropetracker.html"
+                    }
+                </script>
+
                 <button class="projectButton">
                     <div style="display:flex;">
                         <div class="projectButtonLabel"> Past Internships</div>
