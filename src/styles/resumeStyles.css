@@ -1,0 +1,11 @@
+.resumeBlock {
+    height: 800px;
+    width: 40vw;
+    background-color:rgb(85, 118, 154);
+    margin-left: 13vw;
+    margin-top: 20vh;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: lighter;
+}
