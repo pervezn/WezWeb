@@ -7,6 +7,54 @@
     <!-- <script src="../JS/redirecting.js"></script> -->
 </head> 
 <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-storage.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script> -->
+   
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCVCGlSOSxJoz81l9I9KYyRWbqNn2w6Eaw",
+            authDomain: "wezweb-deeb7.firebaseapp.com",
+            databaseURL: "https://wezweb-deeb7.firebaseio.com",
+            projectId: "wezweb-deeb7",
+            storageBucket: "wezweb-deeb7.appspot.com",
+            messagingSenderId: "656579364634",
+            appId: "1:656579364634:web:5b8b8bd3c0a9a5df780ea3",
+            measurementId: "G-8GTPX7LWTS"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        // firebase.analytics();
+        var storage = firebase.storage();
+        console.log("storage is: " + storage)
+
+        const dl = firebase.storage().ref().child("DevilsLake.mp4");
+        const seattle = firebase.storage().ref().child("Seattle2018.mp4");
+        const summer = firebase.storage().ref().child("Summer2019.mp4");
+        const spain = firebase.storage().ref().child("SpainHighlights!.mp4");
+        console.log("dl outside is: " + typeof(dl) + " " + dl)
+
+        const fetchMovie = async () => {
+            await dl.getDownloadURL().then((url)  => {
+                document.getElementById("DevilsLake").src = url;
+            }); 
+            await seattle.getDownloadURL().then((url)  => {
+                document.getElementById("Seattle2018").src = url;
+            }); 
+            await spain.getDownloadURL().then((url)  => {
+                document.getElementById("SpainHighlights").src = url;
+            }); 
+            await summer.getDownloadURL().then((url)  => {
+                document.getElementById("Summer2019").src = url;
+            }); 
+        }
+        fetchMovie();
+    </script>
     <div class="container">
         <section class="menu">
             <div style="margin-left: 5vw; margin-top: 6vh; top: 0px; position: sticky; position: -webkit-sticky;"> 
@@ -19,20 +67,19 @@
             </div>
         </section>
         <section class="body">
-            <div style="height: 100%;">
-                <video style="margin-top: 30vh; height: 50vh;">
-                    <source > hello
+            <div >
+                <video controls="true" width="300" height="600" preload="auto" style="margin-top: 30vh;">
+                    <source id="DevilsLake" type="video/mp4"/>
                 </video>
-                <video style="margin-top: 30vh; height: 50vh;">
-                    <source > hello
+                <video ccontrols="true" width="300" height="600" preload="auto" style="margin-top: 30vh;">
+                    <source id="Seattle2018" type="video/mp4"/>
                 </video>
-                <video style="margin-top: 30vh; height: 50vh;">
-                    <source > hello
+                <video controls="true" width="300" height="600" preload="auto" style="margin-top: 30vh;">
+                    <source id="Summer2019" type="video/mp4"/>
                 </video>
-                <video style="margin-top: 30vh; height: 50vh;">
-                    <source >
+                <video controls="true" width="300" height="600" preload="auto" style="margin-top: 30vh;">
+                    <source id="SpainHighlights" type="video/mp4"/>
                 </video>
-                
             </div>  
         </section> 
         <section class="logo">
