@@ -1,0 +1,19 @@
+img {
+    /* width:50vw; */
+}
+#chicago {
+    width:50vw;
+}
+#california {
+    width:50vw;
+}
+
+@media(max-width: 600px){
+    #chicago {
+        margin-left: 80px;
+    }
+    #california {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+}
