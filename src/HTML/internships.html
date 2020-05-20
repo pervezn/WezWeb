@@ -5,6 +5,7 @@
     <title>Hi Nida</title>
     <link rel="stylesheet" href="../styles/template.css">
     <link rel="stylesheet" href="../styles/projectStyles.css">
+    <link rel="stylesheet" href="../styles/internshipStyles.css">
     <!-- <script src="../JS/projectRedirect.js"></script>
     <script src="../JS/redirecting.js"></script> -->
     
@@ -28,24 +29,24 @@
             <div style="height: 100%; margin-top: 20vh; margin-left: 15vw;">
                 <div style="height: 15vh;">
                     <div style="display: flex;width: 70%;">
-                        <img style="width:10vw;margin-top: 0vh;" src="../../public/images/NU.png" alt="NU">
-                        <div style="color: #ef7679;font-size: 3rem;margin-left: 2vw;padding-top: 5vh;">Internships</div>
+                        <img class="projectImg" src="../../public/images/NU.png" alt="NU">
+                        <div class="projectTitle">Internships</div>
                     </div> 
-                    <div style="display: flex;margin-top: 10vh; width: 60%;">
-                        <button id="allstate" style="color: #eeb868;font-size: large;">Summer 2018</button>
-                        <button id="apple" style="color: #55769a;font-size: large">Summer 2019</button>
+                    <div class="buttonContainer">
+                        <button id="allstate">Summer 2018</button>
+                        <button id="apple">Summer 2019</button>
                     </div>
-                    <div style="width: 60%;margin-top: 10vh;">
+                    <div class="blurbContainer">
                         <p id="internshipLabel" style="font-size: large; color: #eeb868;font-weight: 300;">
                             Allstate
                         </p>
-                        <p id="blurb1" style="color: #55768a; line-height: 1.6;">
+                        <p id="blurb1" class="blurb">
                             I worked at the home office of Allstate the summer of 2018 as a software engineer intern. There, I worked on two main projects: a content management system and an Editable Quote.
                         </p>
-                        <p id="blurb2" style="color: #55768a; line-height: 1.6;">
+                        <p id="blurb2" class="blurb">
                             The content management system I worked on was a web application that made accessing and editing information from the database easier and more efficient for users. To complete this project, I used asp.NET MVC framework and HTML for the front end, Oracle Database for the backend, and C# to connect the two. Implements a grid to display the information.
                         </p>
-                        <p id="blurb3" style="color: #55768a; line-height: 1.6;">
+                        <p id="blurb3" class="blurb">
                             I spent the majority of my time working on the Editable Quote. Editable Quote is an edit feature for proposals that are sent out to customers, which allows users to streamline the quote process by seeing their quotes update in real time as different options are selected. By allowing users to edit their own quotes, they would bypass the ping pong communication that happens between insurance agents. This adaptation projected to increase bind rates by 20%. To complete this project, I used C#, JavaScript, Html, and CSS to implement the front end, and an XML file to read and write to the backend.
                         </p>
                     </div>
@@ -78,7 +79,7 @@
         </section> 
         <section class="logo">
             <div class="avatarContainer">
-                <div style="margin-top: 3vh; color:#eeb868; font-size: x-large; padding-top: 2vh;font-weight: lighter;">Nida Pervez</div>
+                <div class="avatarName">Nida Pervez</div>
                 <a href="about.html"><img src="../../public/images/nidpic.JPG" alt="Avatar" class="avatar" style="margin-top: 3vh; margin-left: 1vw;" ></a>
             </div>
         </section>

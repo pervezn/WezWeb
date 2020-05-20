@@ -19,7 +19,7 @@ p {
 .bodyContainer {
     height: 100%; 
     margin-top: 20vh; 
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 
 @media (max-width: 600px) {
@@ -28,5 +28,5 @@ p {
         /* margin-top: 20vh;  */
         margin-left: 15vw;
     }
-   
+ 
  }

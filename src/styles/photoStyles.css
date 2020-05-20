@@ -19,6 +19,8 @@
     height: auto !important;
   }
 
+ 
+
   /* @media (max-width: 1200px) {
     #photos {
     -moz-column-count:    4;
@@ -39,12 +41,16 @@
     -webkit-column-count: 2;
     column-count:         2;
     }
+    
   }
   @media (max-width: 400px) {
     #photos {
     -moz-column-count:    1;
     -webkit-column-count: 1;
     column-count:         1;
-    /* margin-left:      500px; */
+    margin-left:      90px;
     }
+    /* .photoContainer {
+      margin-left: 60px;
+    } */
   }

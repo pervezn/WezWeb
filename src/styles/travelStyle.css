@@ -8,6 +8,13 @@ img {
     width:50vw;
 }
 
+.bodyContainer {
+    height: 100%;
+    width: 60vw; 
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
 @media(max-width: 600px){
     #chicago {
         margin-left: 80px;

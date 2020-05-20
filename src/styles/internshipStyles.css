@@ -1,0 +1,45 @@
+#allstate {
+    color: #eeb868;
+    font-size: large;
+}
+#apple {
+    color: #55769a;
+    font-size: large
+}
+.blurb{
+    color: #55768a; 
+    line-height: 1.6;
+}
+.blurbContainer {
+    width: 60%;
+    margin-top: 10vh;
+}
+.buttonContainer {
+    display: flex;
+    margin-top: 10vh; 
+    width: 60%;
+}
+
+@media(max-width:600px) {
+    #allstate {
+        color: #eeb868;
+        font-size: normal;
+        width: 150px;
+    }
+    #apple {
+        color: #55769a;
+        font-size: normal;
+        width: 150px;
+    }
+    .blurb{
+        color: #55768a; 
+        line-height: 1.6;
+    }
+    .blurbContainer {
+        width: 300px;
+        margin-top: 10vh;
+    }
+    .buttonContainer {
+        width: 300px;
+    }
+}

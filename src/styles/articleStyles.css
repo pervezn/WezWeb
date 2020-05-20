@@ -1,0 +1,48 @@
+.articleContainer {
+    height: 100%; 
+    margin-left: 6vw; 
+    margin-top: 20vh;
+}
+.articlePara {
+    color: #55768a;
+    width: 80%;
+    line-height: 1.6;
+    font-weight: lighter;
+    margin-top: 5vh;
+}
+
+.articleTitle {
+    color:#eeb868;
+    font-size:4rem;
+    font-weight: lighter;
+    
+}
+
+.articleDate {
+    color: #55768a;
+    font-size:large;
+    margin-left: 10vw;
+    font-weight: normal;
+    margin-left: 20vw;
+}
+
+
+@media(max-width: 900px) {
+    .articleTitle {
+        font-size: 3em;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 700px) {
+    .articlePara {
+        width: 400px
+    }
+    .articleTitle {
+        font-size: 3em;
+        margin-left: 10px;
+    }
+    .articleDate {
+        margin-left: 150px;
+    }
+}

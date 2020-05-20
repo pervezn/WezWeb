@@ -29,17 +29,61 @@
 .projectButton a {
     text-decoration: none;
 }
-
+.bodyContainer {
+    margin-top: 20vh; 
+    margin-left: 10vw;
+}
+.projectImg {
+    width:10vw;
+    margin-top: 0vh;
+}
+.projectTitle {
+    color: #ef7679;
+    font-size: 3rem;
+    margin-left: 2vw;
+}
+.projectOverview {
+    color:#55769a;
+    margin-left: 12vw;
+    font-size: x-large;
+    font-weight: 300;
+}
+.synopsisBlurb {
+    width: 40%; 
+    margin-left: 10px;;
+    color:#55769a
+}
+.overviewBlurb {
+    width: 40%;
+    color:#55769a
+}
+.tropeTrackerButton {
+    color: #eeb868; 
+    width:20vw;
+    font-size: x-large;
+    margin-top: 10vh; 
+    margin-bottom:10vh;
+    text-align: left;
+    text-decoration: none;
+}
+img {
+    width:65%;
+}
 
 @media (max-width: 600px) {
     .bodyContainer {
         margin: auto;
     }
-
+    img {
+        width: 350px;
+    }
+    .tropeTrackerButton{
+        width: 400px;
+    }
     .projectButton {
-        width: 300px;
+        width: 400px;
         height: 250px;
-        margin-left: 15vw;
+        margin-left: 10vw;
     }
     .buttonContainer {
         display: block;
@@ -50,5 +94,25 @@
         font-size: large;
         width: auto;
     }
-   
+    .projectImg {
+        width: 50px;
+    }
+    
+    .projectTitle {
+        color: #ef7679;
+        font-size: x-large;
+        margin-left: 2vw;
+    }
+    .projectOverview {
+        font-size: large;
+        font-weight: 200;
+        margin-left: 10px;
+    }
+    .synopsisBlurb {
+        width: 300px;
+    }
+    .overviewBlurb {
+        width: 300px;
+        /* color:#55769a */
+    }
  }

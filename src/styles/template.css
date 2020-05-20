@@ -97,7 +97,13 @@ body * {
    position: sticky; 
    position: -webkit-sticky;
 }
-
+.avatarName {
+   margin-top: 3vh; 
+   color:#eeb868; 
+   font-size: x-large; 
+   padding-top: 2vh;
+   font-weight: lighter;
+}
 .avatar {
     /* vertical-align: middle; */
     width: 100px;
@@ -106,6 +112,19 @@ body * {
     background-size: cover;
   }
  
+  @media(max-width: 1000px) {
+   .avatarName {
+      font-size: large;
+   }
+ }
+
+ @media(max-width: 800px) {
+   .avatarName {
+      font-size: normal;
+   }
+ }
+
+
  @media (max-width: 600px) {
     .container {
        grid-template-columns: 1fr 1fr;
@@ -117,6 +136,9 @@ body * {
        padding: 10px;
        grid-row-gap: 10px;
        grid-column-gap: 10px;
+    }
+    .avatarName {
+       font-size: x-large;
     }
    .menuContainer {
       position: absolute;
@@ -131,11 +153,10 @@ body * {
       position: relative;
       margin-left: 50%;
    }
-   .footer {
-
-   }
-   
  }
+
+
+
  
  /* @media (max-width: 600px) {
     .container {

@@ -8,10 +8,89 @@
     box-shadow: 0px 2px 5px #888888;
 }
 
-.articlePara {
-    color: #55768a;
-    width: 80%;
-    line-height: 1.6;
-    font-weight: lighter;
+
+
+.storyCardContainer {
+    height: 100%; 
+    margin-left: 9vw; 
+    margin-top: 20vh;
+}
+
+.storyBlurb{
+    color: rgb(85, 118, 154); 
+    font-size: small;
+    margin-top: 5vh; 
+    width:80%;
+    margin-left: 2vw;
+} 
+
+#blurb2 {
+    margin-top: 2vh;
+}
+
+#card2, #card4 {
+    margin-left: 4vw;
+}
+
+#card3 {
     margin-top: 5vh;
+}
+
+
+@media(max-width: 1200px) {
+    .storyCard {
+        width: 400px;
+        height: auto;
+
+    }
+    .storyCardContainer {
+        margin-left: 17vw;
+    }
+    .storyBlurb {
+        /* margin-top: 10px; */
+        margin-left: 30px;
+        margin-bottom: 5px;
+    }
+    #card2, #card4 {
+        margin-left: 1vw;
+    }
+    #card3 {
+        margin-top: 1vh;
+
+    }
+    #card3, #card1 {
+        margin-left: 1vw;
+    }
+}
+
+@media(max-width: 900px){
+    .storyCard {
+        width: 400px;
+        height: auto;
+
+    }
+    .storyCardContainer {
+        margin-left: 7vw;
+    }
+    .storyBlurb {
+        /* margin-top: 10px; */
+        margin-left: 30px;
+        margin-bottom: 5px;
+    }
+}
+
+@media(max-width: 600px) {
+    .storyCard {
+        width: 400px;
+        height: auto;
+
+    }
+    .storyCardContainer {
+        margin-left: 40px;
+    }
+    .storyBlurb {
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 5px;
+    }
 }
