@@ -87,12 +87,14 @@ body * {
     width: 45%;
     font-weight: lighter;
     line-height: 1.6;
-    margin-top: "5vh"; 
+    display: inline-block;
     text-align: "center";
+    margin-left: 17vw; 
+    color: #eeb868;
+    margin-top: 7vh;
 }
  
 .avatar {
-    /* vertical-align: middle; */
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -106,7 +108,13 @@ body * {
 
  @media (max-width: 600px){
     #blurb {
-       width: 80%;
-       margin: 50px;
+      width: 100%;
+      /* margin: auto; */
+      margin-left: 0vw;
+      text-align: center;
+      font-size: small;
+    }
+    .iconButton img {
+       height: 50px;
     }
  } 

@@ -1,3 +1,6 @@
+body * {
+    width: auto;
+ }
 .resumeBlock {
     height: 800px;
     width: 45vw;
@@ -9,3 +12,283 @@
     color: white;
     font-weight: lighter;
 }
+.sectionName {
+    margin-left: 1vw; 
+    font-size: normal; 
+    margin-top: 1vh;
+}
+
+.name {
+    text-align: center; 
+    font-size: x-large;
+    padding-top: 2vh
+}
+
+.contactInfo {
+    text-align:center;
+    font-size: x-small;
+}
+
+.educationInfo {
+    font-size: small;
+    margin-left:3vw;
+}
+
+.skillsInfo {
+    font-size: small;
+    margin-left:2vw;
+}
+.jobContainer {
+    display: flex;
+}
+.jobName {
+    font-size: small;
+    margin-left:1vw;
+    margin-top: 1vh; 
+    color: #eeb868;
+}
+
+.jobDate {
+    font-size: small;
+    margin-left:30px; 
+    margin-top: 1vh;
+}
+
+.jobInfo {
+    font-size: small;
+    margin-left:2vw;
+}
+
+@media(max-width:1250px) {
+    body * {
+        width: auto;
+     }
+    .resumeBlock {
+        width: 85%;
+        margin-left: 10px;
+    }
+    .sectionName {
+        margin-left: 1vw; 
+        font-size: medium; 
+        margin-top: 1vh;
+    }
+    
+    .name {
+        text-align: center; 
+        font-size: normal;
+        padding-top: 2vh;
+        /* margin-top: 15px; */
+    }
+    
+    .contactInfo {
+        text-align:center;
+        font-size: x-small;
+    }
+    
+    .educationInfo {
+        font-size: x-small;
+        margin-left:3vw;
+    }
+    
+    .skillsInfo {
+        font-size: x-small;
+        margin-left:2vw;
+    }
+    .jobContainer {
+        margin-top: 10px;
+        display: flex;
+    }
+    .jobName {
+        font-size: small;
+        margin-left:1vw;
+        margin-top: 1vh; 
+        color: #eeb868;
+    }
+    
+    .jobDate {
+        font-size: small;
+        margin-left:30px; 
+        margin-top: 1vh;
+    }
+    
+    .jobInfo {
+        font-size: 12px;
+        margin-left:2vw;
+    }
+}
+
+@media(max-width:1000px) {
+    body * {
+        width: auto;
+     }
+    .resumeBlock {
+        width: 95%;
+        /* margin-left: 10px; */
+    }
+    .sectionName {
+        margin-left: 1vw; 
+        font-size: medium; 
+        margin-top: 1vh;
+    }
+    
+    .name {
+        text-align: center; 
+        font-size: normal;
+        padding-top: 2vh;
+        /* margin-top: 15px; */
+    }
+    
+    .contactInfo {
+        text-align:center;
+        font-size: x-small;
+    }
+    
+    .educationInfo {
+        font-size: x-small;
+        margin-left:3vw;
+    }
+    
+    .skillsInfo {
+        font-size: x-small;
+        margin-left:2vw;
+    }
+    .jobContainer {
+        margin-top: 10px;
+        display: flex;
+    }
+    .jobName {
+        font-size: small;
+        margin-left:1vw;
+        margin-top: 1vh; 
+        color: #eeb868;
+    }
+    
+    .jobDate {
+        font-size: small;
+        margin-left:30px; 
+        margin-top: 1vh;
+    }
+    
+    .jobInfo {
+        font-size: 12px;
+        margin-left:2vw;
+    }
+}
+
+@media(max-width:800px) {
+    body * {
+        width: auto;
+     }
+    .resumeBlock {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .sectionName {
+        margin-left: 1vw; 
+        font-size: medium; 
+        margin-top: 1vh;
+    }
+    
+    .name {
+        text-align: center; 
+        font-size: normal;
+        padding-top: 2vh;
+        /* margin-top: 15px; */
+    }
+    
+    .contactInfo {
+        text-align:center;
+        font-size: xx-small;
+    }
+    
+    .educationInfo {
+        font-size: x-small;
+        margin-left:3vw;
+    }
+    
+    .skillsInfo {
+        font-size: x-small;
+        margin-left:2vw;
+    }
+    .jobContainer {
+        margin-top: 10px;
+        display: flex;
+    }
+    .jobName {
+        font-size: small;
+        margin-left:1vw;
+        margin-top: 1vh; 
+        color: #eeb868;
+    }
+    
+    .jobDate {
+        font-size: x-small;
+        margin-left:30px; 
+        margin-top: 1vh;
+    }
+    
+    .jobInfo {
+        font-size: x-small;
+        margin-left:2vw;
+    }
+}
+
+@media(max-width:600px) {
+    
+    body * {
+        width: auto;
+     }
+    .resumeBlock {
+        width: 95%;
+        margin-left: 10px;
+    }
+    .sectionName {
+        margin-left: 1vw; 
+        font-size: normal; 
+        margin-top: 1vh;
+    }
+    
+    .name {
+        text-align: center; 
+        font-size: normal;
+        padding-top: 2vh;
+        /* margin-top: 15px; */
+    }
+    
+    .contactInfo {
+        text-align:center;
+        font-size: x-small;
+    }
+    
+    .educationInfo {
+        font-size: x-small;
+        margin-left:3vw;
+    }
+    
+    .skillsInfo {
+        font-size: x-small;
+        margin-left:2vw;
+    }
+    .jobContainer {
+        margin-top: 10px;
+        display: flex;
+    }
+    .jobName {
+        font-size: small;
+        margin-left:1vw;
+        margin-top: 1vh; 
+        color: #eeb868;
+    }
+    
+    .jobDate {
+        font-size: x-small;
+        margin-left:30px; 
+        margin-top: 1vh;
+    }
+    
+    .jobInfo {
+        font-size: x-small;
+        margin-left:2vw;
+    }
+}
+

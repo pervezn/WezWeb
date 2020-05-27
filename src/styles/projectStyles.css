@@ -22,6 +22,10 @@
     width: 10%;
 }
 
+#factflow, #tropetracker, #internships {
+    margin-left: 3vw;
+}
+
 .buttonContainer {
     display: flex;
 }
@@ -83,16 +87,17 @@ img {
     .projectButton {
         width: 400px;
         height: 250px;
-        margin-left: 10vw;
+        margin-left: 8vw;
     }
     .buttonContainer {
         display: block;
     }
     .projectButtonLabel {
-        text-align: left;
+        text-align: center;
         /* margin: auto; */
         font-size: large;
         width: auto;
+        margin-left: 50px
     }
     .projectImg {
         width: 50px;
@@ -114,5 +119,8 @@ img {
     .overviewBlurb {
         width: 300px;
         /* color:#55769a */
+    }
+    #factflow, #tropetracker, #internships {
+        margin-left: 0vw;
     }
  }

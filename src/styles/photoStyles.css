@@ -43,7 +43,7 @@
     }
     
   }
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     #photos {
     -moz-column-count:    1;
     -webkit-column-count: 1;

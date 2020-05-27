@@ -126,9 +126,12 @@ body * {
 
 
  @media (max-width: 600px) {
+    body * {
+       width: auto;
+    }
     .container {
-       grid-template-columns: 1fr 1fr;
-       grid-template-rows: 0.2fr 0.3fr 1fr 1fr 1fr;
+       grid-template-columns: 1fr;
+       grid-template-rows: .4fr .1fr 1fr;
        grid-template-areas:
           "left"
           "right"
@@ -141,35 +144,36 @@ body * {
        font-size: x-large;
     }
    .menuContainer {
-      position: absolute;
+      /* position: absolute; */
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      width: 100%;
+      /* max-width: 600px; */
+      /* width:100%; */
       align-items: center;
       justify-content: center;
+      margin-left: 1vw;
+      top: auto;
+   }
+   .menu, .body, .logo {
+      height: auto;
    }
    .avatarContainer {
       position: relative;
-      margin-left: 50%;
+      display: inline-block;
+      text-align: center;
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      top:auto;
+      width: 100%;
+
+   }
+   .menuButton {
+      width: auto;
    }
  }
 
 
 
  
- /* @media (max-width: 600px) {
-    .container {
-       grid-template-columns: 1fr 1fr;
-       grid-template-rows: auto;
-       grid-template-areas:
-          "a a"
-          "b b"
-          "b b"
-          "b b"
-          "b b"
-          "c c";
-    }
-    article, main { min-height: 30vh; }
-    aside { display: none; }
- } */
+ 

@@ -16,6 +16,9 @@ img {
 }
 
 @media(max-width: 600px){
+    body * {
+        width: 100%;
+    }
     #chicago {
         margin-left: 80px;
     }
