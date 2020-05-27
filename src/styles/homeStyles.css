@@ -105,6 +105,16 @@ body * {
     margin-top: 15vh;
   }
 
+  @media (max-width: 900px){
+   .iconButton img {
+      height: 70px;
+   }
+} 
+@media (max-width: 750px){
+   .iconButton img {
+      height: 60px;
+   }
+} 
 
  @media (max-width: 600px){
     #blurb {
