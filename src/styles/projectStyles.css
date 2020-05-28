@@ -38,7 +38,9 @@
     margin-left: 10vw;
 }
 .projectImg {
-    width:10vw;
+    margin-top: 10px;
+    width:auto;
+    height: 75px;
     margin-top: 0vh;
 }
 .projectTitle {
@@ -54,7 +56,7 @@
 }
 .synopsisBlurb {
     width: 40%; 
-    margin-left: 10px;;
+    margin-left: 12px;;
     color:#55769a
 }
 .overviewBlurb {
@@ -73,6 +75,53 @@
 img {
     width:65%;
 }
+
+.projectInfo {
+    width:12vw; 
+    color:#55769a;
+    margin-right: 5px;
+}
+
+.projectDate {
+    font-weight: bold;
+}
+
+.teamName {
+    font-weight: bold;
+}
+
+
+@media (max-width: 900px) {
+    .projectImg {
+        height: 50px;
+    }
+    .projectTitle {
+        font-size: 2rem;
+    }
+    .overviewBlurb {
+        width: 55%;
+        /* color:#55769a */
+    }
+    .projectInfo {
+        width:auto; 
+        color:#55769a;
+        
+    }
+    
+    .projectDate {
+        font-weight: bold;
+        font-size: small;
+    }
+    
+    .teamName {
+        font-weight: bold;
+        font-size: small;
+    }
+    .names {
+        font-size: small;
+    }
+}
+
 
 @media (max-width: 600px) {
     .bodyContainer {
@@ -100,7 +149,7 @@ img {
         margin-left: 50px
     }
     .projectImg {
-        width: 50px;
+        height: 40px;
     }
     
     .projectTitle {
@@ -115,6 +164,7 @@ img {
     }
     .synopsisBlurb {
         width: 300px;
+        margin-left: 0px;
     }
     .overviewBlurb {
         width: 300px;
@@ -122,5 +172,22 @@ img {
     }
     #factflow, #tropetracker, #internships {
         margin-left: 0vw;
+    }
+    .projectInfo {
+        width:auto; 
+        color:#55769a;
+    }
+    
+    .projectDate {
+        font-weight: bold;
+        font-size: x-small;
+    }
+    
+    .teamName {
+        font-weight: bold;
+        font-size: x-small;
+    }
+    .names {
+        font-size: x-small;
     }
  }

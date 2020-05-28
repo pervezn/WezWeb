@@ -7,13 +7,26 @@
     border-radius: 4px;
     box-shadow: 0px 2px 5px #888888;
 }
-
-
-
+.storyTitle {
+    color:#eeb868; 
+    font-size: x-large;
+    text-align: center;
+    margin-top: 5px;
+}
+.storyDate {
+    color: rgba(0, 0, 0, 0.54); 
+    font-size: medium;
+    text-align: center;
+}
 .storyCardContainer {
-    height: 100%; 
-    margin-left: 9vw; 
+    /* height: 100%;  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8vw; 
     margin-top: 20vh;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .storyBlurb{
@@ -22,6 +35,7 @@
     margin-top: 5vh; 
     width:80%;
     margin-left: 2vw;
+    text-align: center;
 } 
 
 #blurb2 {
@@ -33,11 +47,11 @@
 }
 
 #card3 {
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
 }
 
 
-/* @media(max-width: 1200px) {
+@media(max-width: 1200px) {
     .storyCard {
         width: 400px;
         height: auto;
@@ -61,7 +75,7 @@
     #card3, #card1 {
         margin-left: 1vw;
     }
-} */
+}
 
 @media(max-width: 900px){
     .storyCard {

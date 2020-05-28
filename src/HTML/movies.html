@@ -39,21 +39,25 @@
         const spain = firebase.storage().ref().child("SpainHighlights!.mp4");
         console.log("dl outside is: " + typeof(dl) + " " + dl)
 
-        const fetchMovie = async () => {
-            await dl.getDownloadURL().then((url)  => {
-                document.getElementById("DevilsLake").src = url;
+        const fetchMovie =  () => {
+            dl.getDownloadURL().then((url)  => {
+                document.getElementById("DevilsLake").setAttribute("src", url);
+                document.getElementById("devil").load();
             }); 
-            await seattle.getDownloadURL().then((url)  => {
-                document.getElementById("Seattle2018").src = url;
+            seattle.getDownloadURL().then((url)  => {
+                document.getElementById("Seattle2018").setAttribute("src", url);
+                document.getElementById("seattle").load();
             }); 
-            await spain.getDownloadURL().then((url)  => {
-                document.getElementById("SpainHighlights").src = url;
+             spain.getDownloadURL().then((url)  => {
+                document.getElementById("SpainHighlights").setAttribute("src", url);
+                document.getElementById("spain").load();
             }); 
-            await summer.getDownloadURL().then((url)  => {
-                document.getElementById("Summer2019").src = url;
+             summer.getDownloadURL().then((url)  => {
+                document.getElementById("Summer2019").setAttribute("src", url);
+                document.getElementById("summer").load();
             }); 
         }
-        fetchMovie();
+        
     </script>
     <div class="container">
         <section class="menu">
@@ -67,17 +71,17 @@
             </div>
         </section>
         <section class="body">
-            <div >
-                <video controls="true" width="300" height="600" preload="auto" style="margin-top: 30vh;">
-                    <source id="DevilsLake" type="video/mp4"/>
+            <div id="videoContainer" >
+                <video controls id="devil" id="seattle" controls="true"  style="margin-top: 20vh;">
+                    <source id="DevilsLake" type="video/mp4">
                 </video>
-                <video ccontrols="true" width="300" height="600" preload="auto" style="margin-top: 30vh;">
+                <video id="seattle" controls="true"  style="margin-top: 30vh;">
                     <source id="Seattle2018" type="video/mp4"/>
                 </video>
-                <video controls="true" width="300" height="600" preload="auto" style="margin-top: 30vh;">
+                <video id="summer" controls="true" style="margin-top: 30vh;">
                     <source id="Summer2019" type="video/mp4"/>
                 </video>
-                <video controls="true" width="300" height="600" preload="auto" style="margin-top: 30vh;">
+                <video id="spain" controls="true" style="margin-top: 30vh;">
                     <source id="SpainHighlights" type="video/mp4"/>
                 </video>
             </div>  
@@ -94,5 +98,6 @@
         <a style="color: #EF767A; text-decoration: none;" href="resume.html">RESUME</a>
         <a style="color: #EF767A; text-decoration: none;" href="https://github.com/pervezn">GITHUB</a>
     </div>
+    <script>fetchMovie();</script>
 </body>
 </html>

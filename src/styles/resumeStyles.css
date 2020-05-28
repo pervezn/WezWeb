@@ -39,7 +39,7 @@ body * {
     margin-left:2vw;
 }
 .jobContainer {
-    display: flex;
+    display: block;
 }
 .jobName {
     font-size: small;
@@ -50,8 +50,10 @@ body * {
 
 .jobDate {
     font-size: small;
-    margin-left:30px; 
+    /* margin-left:30px;  */
     margin-top: 1vh;
+    float: right;
+    margin-right: 5px;
 }
 
 .jobInfo {
@@ -59,7 +61,7 @@ body * {
     margin-left:2vw;
 }
 
-@media(max-width:1250px) {
+ @media(max-width:1325px) {
     body * {
         width: auto;
      }
@@ -77,7 +79,7 @@ body * {
         text-align: center; 
         font-size: normal;
         padding-top: 2vh;
-        /* margin-top: 15px; */
+        
     }
     
     .contactInfo {
@@ -96,7 +98,7 @@ body * {
     }
     .jobContainer {
         margin-top: 10px;
-        display: flex;
+        /* display: flex; */
     }
     .jobName {
         font-size: small;
@@ -109,6 +111,7 @@ body * {
         font-size: small;
         margin-left:30px; 
         margin-top: 1vh;
+        float: right;
     }
     
     .jobInfo {
@@ -154,7 +157,7 @@ body * {
     }
     .jobContainer {
         margin-top: 10px;
-        display: flex;
+        /* display: flex; */
     }
     .jobName {
         font-size: small;
@@ -167,6 +170,7 @@ body * {
         font-size: small;
         margin-left:30px; 
         margin-top: 1vh;
+        float: right;
     }
     
     .jobInfo {
@@ -212,7 +216,7 @@ body * {
     }
     .jobContainer {
         margin-top: 10px;
-        display: flex;
+        /* display: flex; */
     }
     .jobName {
         font-size: small;
@@ -225,6 +229,7 @@ body * {
         font-size: x-small;
         margin-left:30px; 
         margin-top: 1vh;
+        float: right;
     }
     
     .jobInfo {
@@ -271,7 +276,7 @@ body * {
     }
     .jobContainer {
         margin-top: 10px;
-        display: flex;
+        /* display: flex; */
     }
     .jobName {
         font-size: small;
@@ -280,15 +285,15 @@ body * {
         color: #eeb868;
     }
     
-    .jobDate {
+    /* .jobDate {
         font-size: x-small;
         margin-left:30px; 
         margin-top: 1vh;
-    }
+    } */
     
     .jobInfo {
         font-size: x-small;
         margin-left:2vw;
     }
 }
-
+ 
