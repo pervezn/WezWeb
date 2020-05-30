@@ -55,8 +55,9 @@
     font-weight: 300;
 }
 .synopsisBlurb {
+    margin-top: 5vh;
     width: 40%; 
-    margin-left: 12px;;
+    margin-left: 12vw;;
     color:#55769a
 }
 .overviewBlurb {
@@ -107,6 +108,9 @@ img {
         color:#55769a;
         
     }
+    .synopsisBlurb {
+        width: 60%;
+    }
     
     .projectDate {
         font-weight: bold;
@@ -125,7 +129,8 @@ img {
 
 @media (max-width: 600px) {
     .bodyContainer {
-        margin: auto;
+        /* margin: auto; */
+        margin-left: auto;
     }
     img {
         width: 350px;
@@ -163,8 +168,8 @@ img {
         margin-left: 10px;
     }
     .synopsisBlurb {
-        width: 300px;
-        margin-left: 0px;
+        width: 350px;
+        margin-left: 10px;
     }
     .overviewBlurb {
         width: 300px;

@@ -132,10 +132,10 @@ body * {
     }
     .container {
        grid-template-columns: 1fr;
-       grid-template-rows: .4fr .1fr 1fr;
+       grid-template-rows: auto;
        grid-template-areas:
+          "right"   
           "left"
-          "right"
           "middle";
        padding: 10px;
        grid-row-gap: 10px;
