@@ -21,7 +21,7 @@ p {
 .bodyContainer {
     /* height: 100%;  */
     margin-top: 20vh; 
-    margin-left: 10vw;
+    margin-left: 13vw;
 }
 
 @media (max-width: 900px) {
