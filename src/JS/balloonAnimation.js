@@ -37,7 +37,7 @@ const generateBalloons = (num) => {
 };
 
 var moveBalloon = function (balloon) {
-    balloon.item.position.y += Math.sin(balloon.speed) * 5;
+    balloon.item.position.y += Math.sin(balloon.speed) * 2;
     if (balloon.item.position.y < -100 ) {
         balloon.item.position.y = screenH + 100;
     }
@@ -46,7 +46,7 @@ var moveBalloon = function (balloon) {
 //call the addFish function and pass
 //in the number of fish you would like to generate
 //as an argument
-const balloons = generateBalloons(3);
+const balloons = generateBalloons(2);
 
 view.onFrame = (event) => {
     for (const balloon of balloons) {

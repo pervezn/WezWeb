@@ -14,7 +14,7 @@ body * {
 }
 .sectionName {
     margin-left: 1vw; 
-    font-size: normal; 
+    font-size: small; 
     margin-top: 1vh;
 }
 
@@ -57,7 +57,7 @@ body * {
 }
 
 .jobInfo {
-    font-size: small;
+    font-size: x-small;
     margin-left:2vw;
 }
 
@@ -115,7 +115,7 @@ body * {
     }
     
     .jobInfo {
-        font-size: 12px;
+        font-size: 10px;
         margin-left:2vw;
     }
 }
@@ -174,7 +174,7 @@ body * {
     }
     
     .jobInfo {
-        font-size: 12px;
+        font-size: 10px;
         margin-left:2vw;
     }
 }
@@ -189,7 +189,7 @@ body * {
     }
     .sectionName {
         margin-left: 1vw; 
-        font-size: medium; 
+        font-size: small; 
         margin-top: 1vh;
     }
     
@@ -219,7 +219,7 @@ body * {
         /* display: flex; */
     }
     .jobName {
-        font-size: small;
+        font-size: 10px;
         margin-left:1vw;
         margin-top: 1vh; 
         color: #eeb868;
